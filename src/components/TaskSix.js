@@ -14,7 +14,7 @@ const ScoreMessage = (score) => {
 const TaskSix = () => {
   const score = 75;
   const message = ScoreMessage(score);
-  return <div className="border border-pink-400 text-center rounded-lg mt-2 py-2">
+  return <div className="border border-pink-500 text-center rounded-lg mt-2 py-2">
     <p className="font-bold text-blue-400">Six</p>
     <p>{message}</p>
     </div>;

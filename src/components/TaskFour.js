@@ -9,7 +9,7 @@ const TaskFour = () => {
   const evenNumbersString = evenNumbers.join(", ");
 
   return (
-    <div className="border border-pink-600 text-center rounded-lg mt-2 py-2">
+    <div className="border border-pink-700 text-center rounded-lg mt-2 py-2">
         <p className="font-bold text-blue-400">Four</p>
       <p>{evenNumbersString}</p>
     </div>

@@ -9,7 +9,7 @@ const checkNumber = (number) => {
 const TaskNine = () => {
   const message = checkNumber(10);
   return (
-    <div className="border border-pink-100 text-center rounded-lg mt-2 py-2">
+    <div className="border border-pink-200 text-center rounded-lg mt-2 py-2">
         <p className="font-bold text-blue-400">nine</p>
       <p>{message}</p>
     </div>

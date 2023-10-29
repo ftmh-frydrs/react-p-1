@@ -5,7 +5,7 @@ const TaskThree = () => {
   const filteredPosts = posts.filter((post) => post.id % 24 === 0);
 
   return (
-    <div className="border border-pink-700 text-center rounded-lg mt-2 p-3">
+    <div className="border border-pink-50 text-center rounded-lg mt-2 p-3">
         <p className="font-bold text-blue-400">three</p>
       {filteredPosts.map((post) => {
         return (
